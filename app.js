@@ -24,7 +24,7 @@ const swaggerSpecs = {
     definition: {
         openapi: "3.0.0",
         info: {
-            title: "JMTP - Ecommerce",
+            title: "Ecommerce",
             version: "1.0.0"
         },
         servers: [
