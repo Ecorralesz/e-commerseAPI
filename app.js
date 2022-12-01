@@ -4,6 +4,7 @@ const cors = require("cors")
 const db = require("./src/database/database")
 const errorHandler = require("./src/middlewares/error.middleware")
 const initModels = require("./src/models/initModel")
+require('dotenv').config();
 
 const userRouter = require("./src/routers/users.route")
 const authRouter = require("./src/routers/auth.route")
