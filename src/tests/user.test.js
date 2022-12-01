@@ -7,8 +7,8 @@ const api = supertest(app)
 describe("Unit Test: USER_MODEL", () => {
     test("Creatting a new user", async () => {
         const newUser = await UserModel.create({
-            email: "donovan@gmail.com",
-            name: "Donovan Ian Ticona Verdeguer",
+            email: "estebcz@hotmail.com",
+            name: "Carlos Corrales Zamora",
             password: "1234"
         })
         expect(newUser).toHaveProperty('id')
